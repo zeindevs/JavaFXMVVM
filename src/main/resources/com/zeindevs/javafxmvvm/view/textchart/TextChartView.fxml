@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" spacing="8.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zeindevs.javafxmvvm.view.textchart.TextChartController">
+    <children>
+        <Label fx:id="eventLabel" text="Label" />
+        <Button mnemonicParsing="false" onAction="#onUpdateButton" text="Update" />
+      <Label text="X" />
+        <TextField fx:id="xTextField" />
+      <Label layoutX="30.0" layoutY="88.0" text="Y" />
+        <TextField fx:id="yTextField" />
+      <Label layoutX="30.0" layoutY="146.0" text="Z" />
+        <TextField fx:id="zTextField" />
+        <Button mnemonicParsing="false" onAction="#onSaveButton" text="Save" />
+    </children>
+   <padding>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </padding>
+
+</VBox>
